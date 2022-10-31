@@ -4,47 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Metodologia BEM</title>
 </head>
 <body>
     <header class="header">
         <nav class="navigation">
             <ul class="navigation__list">
-                <li class="navigation__item"><a href="">Hostels Page</a></li>
-                <li class="navigation__item"><a href="">Home</a></li>
-                <li class="navigation__item"><a href="">About us</a></li>
-                <li class="navigation__item"><a href="">Contact</a></li>
+                <li class="navigation__item"><a href="" class="navigation__item__link">Hostels Page</a></li>
+                <li class="navigation__item"><a href="" class="navigation__item__link">Home</a></li>
+                <li class="navigation__item"><a href="" class="navigation__item__link">About us</a></li>
+                <li class="navigation__item"><a href="" class="navigation__item__link">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="main">
         <div class="introduction">
-            <h2>Hostels Page</h2>
+            <h2 class="introduction__caption">Hostels Page</h2>
             <p>Your site for booking hostels around the world.</p>
         </div>
 
         <form class="search_form" action="">
-            <div class="search_form_info">
-                <label for="">Where do you want to go?</label>
+            <div class="search_form__info">
+                <label for="" class="info__description">Where do you want to go?</label>
                 <input type="text" class="info_input">
             </div>
-            <div class="search_form__info vertical_search_form">
-                <h>When?</h>
-                <label for="">From:</label>
-                <input type="text" class="info_input">
-                <label for="">To:</label>
-                <input type="text" class="info_input">
+            <div class="search_form__info">
+                <h class="info__description">When?</h>
+                <div class="info__vertical">
+                    <div>
+                        <label for="" class="info__description">From:</label>
+                        <input type="text" class="info__input">
+                    </div>
+                    <div>
+                        <label for="" class="info__description">To:</label>
+                        <input type="text" class="info__input">
+                    </div>
+                </div>
             </div>
             <div class="search_form__info ">
-                <h>How many people</h>
-                <input type="number" class="info_input">
-                <label for="nombre"> Adults </label>
-                <input type="number" class="info_input">
-                <label for="nombre"> Children </label>
+                <h class="info__description">How many people</h>
+                <div class="info__horizontal">
+                    <input type="number" class="info__input">
+                    <label for="" class="info__description"> Adults </label>
+                    <input type="number" class="info__input">
+                    <label for="" class="info__description"> Children </label>
+                </div>
             </div>
-            <div>
-                <input type="button" value="Search" class="search_input">
+            <div class="search_form__button">
+                <input type="button" value="Search" class="button__input">
             </div>
         </form>
     </main>
@@ -53,12 +62,11 @@
         <p>All rights reserved</p>
         <nav class="social_media">
             <ul class="social_media__list">
-                <li class="social_media__item"><a href="">Instagram</a></li>
-                <li class="social_media__item"><a href="">Facebook</a></li>
-                <li class="social_media_item"><a href="">Twitter</a></li>
+                <li class="social_media__item"><a href="" class="social_media__item__link">Instagram</a></li>
+                <li class="social_media__item"><a href="" class="social_media__item__link">Facebook</a></li>
+                <li class="social_media__item"><a href="" class="social_media__item__link">Twitter</a></li>
             </ul>
         </nav>
-
     </footer>
 </body>
 </html>
