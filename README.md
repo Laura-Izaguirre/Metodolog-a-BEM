@@ -1,10 +1,13 @@
-# Portfolio
+# Metodologia BEM 
 
->Código HTML
+>Código HTML con clases asignadas a cada 
+uno de los bloques y elementos de la página web principal utilizando metodología BEM. 
+
 
 ## Built With
 
 - HTML
+- CSS
 
 ## Live Demo -- No disponible aun
 
