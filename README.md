@@ -14,7 +14,7 @@
 
 👤 **Laura**
 
-- GitHub: []()
+- GitHub: [https://github.com/Laura-Izaguirre]()
 
 ## 🤝 Contributing
 
